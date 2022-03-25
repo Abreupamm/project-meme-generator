@@ -1,0 +1,22 @@
+#meme-image {
+  position: absolute;
+  border: solid black 2px;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+}
+
+#meme-text {
+  position: absolute;
+  width: 380px;
+  height: 160px;
+  margin-left: 10px;
+  margin-top: 240px;
+  text-align: center;
+  font-size: 30px;
+}
+#meme-image-container {
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+}

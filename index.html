@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    <label for="text-input">Texto:</label>
-    <input type="text" name="tetxo-interage" id="text-input">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <label for="text-input">Texto:</label>
+      <input type="text" name="tetxo-interage" id="text-input" />
+      <br />
+      <label for="meme-insert">Foto:</label>
+      <input type="file" name="foto" id="meme-insert" />
+    </header>
     <div id="meme-image-container">
-
-<h1 id="meme-text"></h1>
-</div>
-</header>
-<script src="scripit.js"></script>
-</body>
+      <img id="meme-image" />
+      <div>
+        <span id="meme-text"></span>
+      </div>
+    </div>
+    <script src="scripit.js"></script>
+  </body>
 </html>
