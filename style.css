@@ -1,9 +1,7 @@
 #meme-image {
   position: absolute;
-  border: solid black 2px;
   width: 399px;
   height: 399px;
-  box-sizing: border-box;
 }
 
 #meme-text {
@@ -20,8 +18,15 @@
 #meme-image-container {
   width: 400px;
   height: 400px;
-  box-sizing: border-box;
-  border: solid black 1px;
   background-color: white;
 }
 
+#fire {
+  background-color: red;
+}
+#water{
+  background-color: blue;
+}
+#earth {
+  background-color: green;
+}

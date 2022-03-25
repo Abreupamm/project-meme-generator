@@ -16,3 +16,25 @@ function criaImg() {
 
 uplImg.addEventListener('change', criaImg);
 inputText.addEventListener('input', criaTexto);
+
+const fire = document.getElementById('fire');
+const water = document.getElementById('water');
+const earth = document.getElementById('earth');
+let container = document.getElementById('meme-image-container');
+container.style.border = 'solid black 1px';
+
+function btnFire() {
+  container.style.border = '';
+  container.style.border = '3px dashed red';
+}
+function btnWater() {
+  container.style.border = '';
+  container.style.border = '5px double blue';
+}
+function btnEarth() {
+  container.style.border = '';
+  container.style.border = '6px groove green';
+}
+fire.addEventListener('click', btnFire);
+water.addEventListener('click', btnWater);
+earth.addEventListener('click', btnEarth);
