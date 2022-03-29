@@ -1,8 +1,12 @@
+
+
 const inputText = document.querySelector('#text-input');
 const txt = document.getElementById('meme-text');
 const uplImg = document.getElementById('meme-insert');
 let img = document.getElementById('meme-image');
 const reader = new FileReader();
+const imgs = document.querySelectorAll('.memes');
+
 function criaTexto() {
   const text = inputText.value;
   txt.innerHTML = text;
@@ -38,3 +42,16 @@ function btnEarth() {
 fire.addEventListener('click', btnFire);
 water.addEventListener('click', btnWater);
 earth.addEventListener('click', btnEarth);
+
+function addImgs(event) {
+const meme = event.target;
+const url = meme.src
+img.src = '';
+img.src = url
+}
+
+for(let i = 0; i < imgs.length; i += 1){
+  const foto = imgs[i]
+  foto.addEventListener('click', addImgs);
+}
+

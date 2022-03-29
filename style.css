@@ -24,9 +24,23 @@
 #fire {
   background-color: red;
 }
-#water{
+#water {
   background-color: blue;
 }
 #earth {
   background-color: green;
+}
+
+.memes {
+  border: black 1px solid;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#meme-1 , #meme-2 , #meme-3 , #meme-4 {
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
 }
